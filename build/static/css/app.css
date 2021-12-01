@@ -1,0 +1,141 @@
+html,body, body * { 
+  box-sizing: border-box; 
+  font-family: 'Open Sans', sans-serif; 
+  margin:0;
+  padding:0;
+  color:inherit;
+  background-color:inherit;
+}
+
+.base-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.nav-buttons {
+  width: 100%;
+  height: 100px;
+  padding-top: 40px;
+  padding-left: 40px;
+  opacity: 1;
+  margin-bottom: 3em;
+}
+
+button {
+    font-size: 1.5em;
+    margin-right:1em;
+    border: 2px;
+    cursor: pointer;
+ 
+}
+
+#submit {
+  padding: 10px 30px;
+  border: solid 2px #1059FF;
+}
+
+#submit:hover {
+  background-color: #f3f3f3;
+}
+
+#submit.active {
+  background-color: #1059FF;
+}
+
+button:hover {
+  background-color: #f3f3f3;
+}
+
+button.active {
+  padding-bottom: 10px;
+  border-bottom: solid 2px #1059FF;
+} 
+
+.header {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: fit-content;
+}
+
+label {
+  font-size: 20px;
+}
+input {
+  margin-top: 6px;
+  min-width: 18em;
+  height: 37px;
+  padding: 0px 10px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f3f3f3;
+  border: 0;
+  border-radius: 4px;
+  margin-bottom: 31px;
+  transition: all 250ms ease-in-out;
+}
+input:hover {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 14px 0.3px #0e81ce96;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0px 0px 12px 0.8px #3474dbb2;
+}
+
+.arrow {
+  border: solid black;
+  position: absolute;
+  top: 50vh;
+  border-width: 0px 10px 10px 0px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.left {
+  transform: translateX(10px) rotate(135deg);
+}
+
+.right {
+  transform: translateX(10px) rotate(-45deg);
+}
+
+.left-col {
+  float: left;
+  width: 40px;
+  height: 100vh;
+  background-color: yellow;
+}
+
+.right-col {
+  float: right;
+  padding-right: 40px;
+}
+
+/*# sourceMappingURL=app.css.map*/
