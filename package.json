@@ -4,6 +4,9 @@
   "private": true,
   "dependencies": {
     "@babel/runtime": "^7.10.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
     "autoprefixer": "^9.8.5",
     "case-sensitive-paths-webpack-plugin": "^2.3.0",
     "chalk": "^4.1.0",

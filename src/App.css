@@ -17,7 +17,7 @@ html,body, body * {
 .container {
     width: 100%;
     padding-top: 60px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 .nav-buttons {
@@ -136,4 +136,26 @@ input:focus {
 .right-col {
   float: right;
   padding-right: 40px;
+}
+
+#btn-like {
+  color: green;
+  padding: 10px;
+}
+
+#btn-dislike {
+  color: red;
+  padding: 10px;
+}
+
+.vote-buttons {
+  align-items: center;
+}
+
+#comments-button-enabled {
+  color: #1059FF;
+}
+
+#comments-button-disabled {
+  color: #D3D3D3;
 }
